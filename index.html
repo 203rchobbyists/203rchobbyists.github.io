@@ -349,36 +349,15 @@ $(document).ready(function () {
 
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-<div id="disqus_thread"></div>
-<script>
+<form method="POST" action="https://api.staticman.net/v2/entry/203rchobbyists/203rchobbyists.github.io/master">
+  <input name="options[redirect]" type="hidden" value="https://203rchobbyists.github.io">
+  <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <label><input name="fields[name]" type="text">Name</label>
+<!--   <label><input name="fields[email]" type="email">E-mail</label> -->
+  <label><textarea name="fields[message]"></textarea>Message</label>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-
-
-var disqus_config = function () {
-this.page.url = https://203rchobbyists.github.io;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = home; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://203rchobbyists.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+  <button type="submit">Go!</button>
+</form>
 </body>
 </html>
