@@ -5,6 +5,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Events
+      href: events.html
     - text: "Pictures"
       href: pictures.html
     - text: "Videos"
