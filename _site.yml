@@ -1,7 +1,7 @@
 name: "203 RC Hobbyists"
 output_dir: "."
 navbar:
-  title: "203 RC Hobbyists"
+  title: "CT R/C Crawling & Trailing"
   left:
     - text: "Home"
       href: index.html

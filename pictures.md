@@ -1,0 +1,8 @@
+---
+title: "CT R/C Event Pictures"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+This page is where pictures of the events will be posted
