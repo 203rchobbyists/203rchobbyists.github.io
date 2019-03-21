@@ -1,0 +1,25 @@
+name: "203 RC Hobbyists"
+output_dir: "."
+navbar:
+  title: "203 RC Hobbyists"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Events"
+      href: events.html
+    - text: "Pictures"
+      href: pictures.html
+    - text: "Videos"
+      href: videos.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/203rchobbyists
+
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
